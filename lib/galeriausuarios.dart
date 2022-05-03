@@ -21,7 +21,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Usuarios de Morax"),
+          title: Text("Usuarios de Morax V2"),
         ),
         body: GridView.custom(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
